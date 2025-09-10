@@ -1,0 +1,14 @@
+[project]
+name = "real-estate-data-extractor"
+version = "0.2.0"
+description = "Generic, configurable extractor for public real estate listings"
+requires-python = ">=3.9,<3.12"
+dependencies = [
+    "python-dotenv>=1.0.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+]
+
+[tool.uv]
+# You can add uv specific configurations here if needed,
+# but for now, just having the [project] section is enough.
