@@ -112,7 +112,3 @@ The application loads these via `python-dotenv` at startup.
 - Swap LLMs: change the model and key via environment variables
 
 ---
-
-## License
-
-MIT
